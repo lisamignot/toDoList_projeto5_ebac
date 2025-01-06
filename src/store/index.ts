@@ -5,8 +5,10 @@ import tarefasReducer from './reducers/tarefas'
 
 const store = configureStore({
   reducer: {
-
+    tarefas: tarefasReducer
   }
 })
 
-type RootReducer = ReturnType<typeof store.getState>
+export type RootReducer = ReturnType<typeof store.getState>
+
+export default store
