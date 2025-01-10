@@ -13,19 +13,19 @@ const initialState: TarefasState = {
       descricao: 'Estudar novo módulo',
       prioridade: enums.Prioridade.URGENTE,
       status: enums.Status.CONCLUIDA,
-      titulo: 'Estudar JS'
+      titulo: 'Estudar JavaScript'
     },
     {id: 2,
-      descricao: 'Fazer treino de inferiores',
+      descricao: 'Estudar módulo antigo',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.PENDENTE,
-      titulo: 'Ir à academia'
+      titulo: 'Revisar Typescript'
     },
     {id: 3,
-      descricao: 'Lavar roupas pretas',
+      descricao: 'Treiro de superiores',
       prioridade: enums.Prioridade.NORMAL,
       status: enums.Status.PENDENTE,
-      titulo: 'Lavar roupa'
+      titulo: 'Ir à academia'
     }
   ]
 }
